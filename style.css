@@ -36,4 +36,38 @@ h1 {
     color: #e65100;
     min-height: 40px;
     font-weight: bold;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 22px;
+        margin-top: 18px;
+    }
+    #wheel {
+        width: 90vw !important;
+        height: 90vw !important;
+        max-width: 340px;
+        max-height: 340px;
+        margin: 18px auto;
+    }
+    #hand-pointer {
+        width: 48px !important;
+        height: 48px !important;
+        top: 2vw !important;
+    }
+    #spin {
+        padding: 10px 0;
+        width: 80vw;
+        max-width: 320px;
+        font-size: 18px;
+        margin-top: 16px;
+    }
+    #result {
+        font-size: 22px;
+        min-height: 32px;
+        margin-top: 18px;
+    }
+    body > div {
+        flex-direction: column !important;
+        gap: 0 !important;
+    }
 } 
