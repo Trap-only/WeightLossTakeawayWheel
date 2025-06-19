@@ -8,3 +8,6 @@
 #### 1.2 功能需求
 - 用户点击按钮后，应用会随机选择一家外卖店，并显示在界面上。
 - 用户可以多次点击按钮，每次都会得到一个新的随机外卖店推荐。
+
+### 预览地址
+https://trap-only.github.io/WeightLossTakeawayWheel/
